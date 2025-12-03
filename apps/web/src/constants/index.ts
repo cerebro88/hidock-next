@@ -9,9 +9,9 @@ export const HIDOCK_DEVICE_CONFIG = {
 
 // Additional HiDock Product IDs
 export const HIDOCK_PRODUCT_IDS = {
-  H1: 0xAF0C,
-  H1E: 0xAF0D,
-  P1: 0xAF0E,
+  H1: 0xB00B,
+  H1E: 0xB00C,
+  P1: 0xB00E,
   DEFAULT: 0xB00D,
 } as const;
 
@@ -158,3 +158,4 @@ export const ERROR_MESSAGES = {
   UNSUPPORTED_FORMAT: 'Unsupported audio format. Please use WAV, MP3, M4A, or OGG.',
   API_KEY_MISSING: 'Gemini API key is required for transcription features.',
 } as const;
+
